@@ -113,9 +113,9 @@ header::after {
   display: flex;
   align-items: end;
   background-image: url('./assets/header_bg.jpg');
-  background-size: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .cards__section {
