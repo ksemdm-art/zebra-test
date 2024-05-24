@@ -8,7 +8,7 @@ export const useDataStore = defineStore('dataStore', {
     return { 
       count: 1,
       newsItems: reactive([]),
-      api: 'http://flems.github.io/test/api/news/'
+      api: 'https://flems.github.io/test/api/news/'
      }
   },
   actions: {
