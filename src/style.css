@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto&display=swap");
+
+:root {
+  /* Color variables */
+  --heading-black: #17171a;
+  --date-gray: #a1a7b5;
+  --link-default: #0c5bef;
+  --link-hover: #0029A9;
+  --card-font: #222327;
+  --type-font: #00133a;
+  --type-background: #F0F6FE;
+  --footer-background: #f0f6fe;
+  --footer-font: #81899d;
+  --button-color: #002DBF;
+  --border-color: #0F62FE;
+
+  font-family:
+    Nunito Sans,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+body{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--link-default);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--link-hover);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--heading-black);
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--card-font);
+}
+
+button{
+  background-color: transparent;
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--footer-font);
+}
